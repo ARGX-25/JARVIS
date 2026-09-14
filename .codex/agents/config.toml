@@ -1,0 +1,8 @@
+[mcp_servers.supabase]
+url = "https://mcp.supabase.com/mcp?project_ref=edoxkintrewoguoneble&read_only=true"
+bearer_token_env_var = "SUPABASE_SECRET_KEY"
+
+[mcp_servers.github]
+command = "npx"
+args = ["-y", "@github-mcp/server"]
+env = { "GITHUB_TOKEN" = "GITHUB_TOKEN" }

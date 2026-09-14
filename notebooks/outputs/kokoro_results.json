@@ -1,0 +1,45 @@
+{
+  "voice": "bm_george",
+  "text": "Good morning, Sir.",
+  "kokoro": "0.9.4",
+  "torch": "2.11.0+cu128",
+  "load_ms": 7524,
+  "cold": {
+    "ttfa_ms": 5384,
+    "synth_total_ms": 5384,
+    "audio_s": 2.58
+  },
+  "warm": {
+    "ttfa_ms": 210,
+    "runs_ms": [
+      204,
+      242,
+      210
+    ],
+    "spoken_ttfa_ms": 481,
+    "synth_total_ms": 481,
+    "audio_s": 1.98
+  },
+  "vram": {
+    "peak_process_mb": 823,
+    "peak_device_delta_mb": 786,
+    "baseline_other_apps_mb": 1132,
+    "stages": [
+      {
+        "stage": "after_load",
+        "process_now_mb": 439,
+        "process_peak_mb": 439,
+        "device_delta_now_mb": 402,
+        "device_delta_peak_mb": 402
+      },
+      {
+        "stage": "after_speak",
+        "process_now_mb": 823,
+        "process_peak_mb": 823,
+        "device_delta_now_mb": 786,
+        "device_delta_peak_mb": 786
+      }
+    ]
+  },
+  "torch_max_reserved_mb": 696
+}

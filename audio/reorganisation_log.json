@@ -1,0 +1,707 @@
+{
+ "at": "2026-09-14T20:51:32+05:30",
+ "entries": [
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\JARVIS voice clone.mp3",
+   "dst": "audio\\source\\JARVIS voice clone.mp3",
+   "bytes": 8971470
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\MoreVoice for Cloning.mp3",
+   "dst": "audio\\source\\MoreVoice for Cloning.mp3",
+   "bytes": 24996186
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\01_uvr\\jarvis_source\\vocal\\jarvis_source_vocals.wav",
+   "dst": "audio\\training\\separated\\jarvis_source\\jarvis_source_vocals.wav",
+   "bytes": 84799532
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\01_uvr\\jarvis_source\\instrumental\\jarvis_source_other.wav",
+   "dst": "audio\\training\\separated\\jarvis_source\\jarvis_source_other.wav",
+   "bytes": 84799532
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\01_uvr\\morevoice\\vocal\\morevoice_vocals.wav",
+   "dst": "audio\\training\\separated\\morevoice\\morevoice_vocals.wav",
+   "bytes": 110223404
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\01_uvr\\morevoice\\instrumental\\morevoice_other.wav",
+   "dst": "audio\\training\\separated\\morevoice\\morevoice_other.wav",
+   "bytes": 110223404
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\uvr_instrumental_sample.wav",
+   "dst": "audio\\training\\separated\\excerpts\\uvr_instrumental_sample.wav",
+   "bytes": 2646044
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\uvr_original_sample.wav",
+   "dst": "audio\\training\\separated\\excerpts\\uvr_original_sample.wav",
+   "bytes": 2646044
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\uvr_vocal_sample.wav",
+   "dst": "audio\\training\\separated\\excerpts\\uvr_vocal_sample.wav",
+   "bytes": 2646044
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0000000000_0000160000.wav",
+   "dst": "audio\\training\\segments\\seg_0000000000_0000160000.wav",
+   "bytes": 320044
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0000160000_0000349120.wav",
+   "dst": "audio\\training\\rejected\\seg_0000160000_0000349120.wav",
+   "bytes": 378284
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0000349120_0000523200.wav",
+   "dst": "audio\\training\\rejected\\seg_0000349120_0000523200.wav",
+   "bytes": 348204
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0000523200_0000677760.wav",
+   "dst": "audio\\training\\rejected\\seg_0000523200_0000677760.wav",
+   "bytes": 309164
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0000677760_0000803520.wav",
+   "dst": "audio\\training\\rejected\\seg_0000677760_0000803520.wav",
+   "bytes": 251564
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0000803520_0000965120.wav",
+   "dst": "audio\\training\\rejected\\seg_0000803520_0000965120.wav",
+   "bytes": 323244
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0000965120_0001227520.wav",
+   "dst": "audio\\training\\rejected\\seg_0000965120_0001227520.wav",
+   "bytes": 524844
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0001227520_0001349120.wav",
+   "dst": "audio\\training\\segments\\seg_0001227520_0001349120.wav",
+   "bytes": 243244
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0001349120_0001517440.wav",
+   "dst": "audio\\training\\segments\\seg_0001349120_0001517440.wav",
+   "bytes": 336684
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0001517440_0001655360.wav",
+   "dst": "audio\\training\\segments\\seg_0001517440_0001655360.wav",
+   "bytes": 275884
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0001655360_0001771200.wav",
+   "dst": "audio\\training\\segments\\seg_0001655360_0001771200.wav",
+   "bytes": 231724
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0001771200_0001965440.wav",
+   "dst": "audio\\training\\rejected\\seg_0001771200_0001965440.wav",
+   "bytes": 388524
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0001965440_0002141440.wav",
+   "dst": "audio\\training\\rejected\\seg_0001965440_0002141440.wav",
+   "bytes": 352044
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0002141440_0002361600.wav",
+   "dst": "audio\\training\\rejected\\seg_0002141440_0002361600.wav",
+   "bytes": 440364
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0002361600_0002590400.wav",
+   "dst": "audio\\training\\rejected\\seg_0002361600_0002590400.wav",
+   "bytes": 457644
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0002590400_0002711040.wav",
+   "dst": "audio\\training\\rejected\\seg_0002590400_0002711040.wav",
+   "bytes": 241324
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0002711040_0002900160.wav",
+   "dst": "audio\\training\\rejected\\seg_0002711040_0002900160.wav",
+   "bytes": 378284
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0002900160_0003160000.wav",
+   "dst": "audio\\training\\rejected\\seg_0002900160_0003160000.wav",
+   "bytes": 519724
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0003169280_0003319680.wav",
+   "dst": "audio\\training\\rejected\\seg_0003169280_0003319680.wav",
+   "bytes": 300844
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0003319680_0003489600.wav",
+   "dst": "audio\\training\\rejected\\seg_0003319680_0003489600.wav",
+   "bytes": 339884
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0003489600_0003672000.wav",
+   "dst": "audio\\training\\rejected\\seg_0003489600_0003672000.wav",
+   "bytes": 364844
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0003672000_0003823040.wav",
+   "dst": "audio\\training\\rejected\\seg_0003672000_0003823040.wav",
+   "bytes": 302124
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0003823040_0004016960.wav",
+   "dst": "audio\\training\\rejected\\seg_0003823040_0004016960.wav",
+   "bytes": 387884
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0004016960_0004140160.wav",
+   "dst": "audio\\training\\rejected\\seg_0004016960_0004140160.wav",
+   "bytes": 246444
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0004152320_0004277760.wav",
+   "dst": "audio\\training\\rejected\\seg_0004152320_0004277760.wav",
+   "bytes": 250924
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0004312000_0004439360.wav",
+   "dst": "audio\\training\\segments\\seg_0004312000_0004439360.wav",
+   "bytes": 254764
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0004439360_0004569600.wav",
+   "dst": "audio\\training\\segments\\seg_0004439360_0004569600.wav",
+   "bytes": 260524
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0004569600_0004705280.wav",
+   "dst": "audio\\training\\segments\\seg_0004569600_0004705280.wav",
+   "bytes": 271404
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0004714880_0004851200.wav",
+   "dst": "audio\\training\\rejected\\seg_0004714880_0004851200.wav",
+   "bytes": 272684
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0004851200_0004980800.wav",
+   "dst": "audio\\training\\rejected\\seg_0004851200_0004980800.wav",
+   "bytes": 259244
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0005006400_0005205760.wav",
+   "dst": "audio\\training\\segments\\seg_0005006400_0005205760.wav",
+   "bytes": 398764
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0005214400_0005355520.wav",
+   "dst": "audio\\training\\rejected\\seg_0005214400_0005355520.wav",
+   "bytes": 282284
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0005355520_0005532160.wav",
+   "dst": "audio\\training\\segments\\seg_0005355520_0005532160.wav",
+   "bytes": 353324
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0005532160_0005677120.wav",
+   "dst": "audio\\training\\rejected\\seg_0005532160_0005677120.wav",
+   "bytes": 289964
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0005677120_0005796160.wav",
+   "dst": "audio\\training\\rejected\\seg_0005677120_0005796160.wav",
+   "bytes": 238124
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0005803200_0005992000.wav",
+   "dst": "audio\\training\\rejected\\seg_0005803200_0005992000.wav",
+   "bytes": 377644
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0005992000_0006154240.wav",
+   "dst": "audio\\training\\segments\\seg_0005992000_0006154240.wav",
+   "bytes": 324524
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0006195520_0006326080.wav",
+   "dst": "audio\\training\\rejected\\seg_0006195520_0006326080.wav",
+   "bytes": 261164
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0006326080_0006520640.wav",
+   "dst": "audio\\training\\rejected\\seg_0006326080_0006520640.wav",
+   "bytes": 389164
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0006520640_0006703680.wav",
+   "dst": "audio\\training\\rejected\\seg_0006520640_0006703680.wav",
+   "bytes": 366124
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0006703680_0006989760.wav",
+   "dst": "audio\\training\\rejected\\seg_0006703680_0006989760.wav",
+   "bytes": 572204
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0006996480_0007165440.wav",
+   "dst": "audio\\training\\rejected\\seg_0006996480_0007165440.wav",
+   "bytes": 337964
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0007165440_0007343680.wav",
+   "dst": "audio\\training\\rejected\\seg_0007165440_0007343680.wav",
+   "bytes": 356524
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0007343680_0007540800.wav",
+   "dst": "audio\\training\\rejected\\seg_0007343680_0007540800.wav",
+   "bytes": 394284
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0007553600_0007690240.wav",
+   "dst": "audio\\training\\rejected\\seg_0007553600_0007690240.wav",
+   "bytes": 273324
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0007699520_0007850240.wav",
+   "dst": "audio\\training\\rejected\\seg_0007699520_0007850240.wav",
+   "bytes": 301484
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0007850240_0008081920.wav",
+   "dst": "audio\\training\\segments\\seg_0007850240_0008081920.wav",
+   "bytes": 463404
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0008081920_0008304000.wav",
+   "dst": "audio\\training\\segments\\seg_0008081920_0008304000.wav",
+   "bytes": 444204
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0008304000_0008556160.wav",
+   "dst": "audio\\training\\segments\\seg_0008304000_0008556160.wav",
+   "bytes": 504364
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0008565120_0008730560.wav",
+   "dst": "audio\\training\\rejected\\seg_0008565120_0008730560.wav",
+   "bytes": 330924
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0008730560_0008902720.wav",
+   "dst": "audio\\training\\rejected\\seg_0008730560_0008902720.wav",
+   "bytes": 344364
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0008909120_0009145600.wav",
+   "dst": "audio\\training\\rejected\\seg_0008909120_0009145600.wav",
+   "bytes": 473004
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0009145600_0009314880.wav",
+   "dst": "audio\\training\\rejected\\seg_0009145600_0009314880.wav",
+   "bytes": 338604
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0009330560_0009477120.wav",
+   "dst": "audio\\training\\rejected\\seg_0009330560_0009477120.wav",
+   "bytes": 293164
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0009477120_0009626880.wav",
+   "dst": "audio\\training\\rejected\\seg_0009477120_0009626880.wav",
+   "bytes": 299564
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0009626880_0009754560.wav",
+   "dst": "audio\\training\\rejected\\seg_0009626880_0009754560.wav",
+   "bytes": 255404
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0009758080_0009887360.wav",
+   "dst": "audio\\training\\segments\\seg_0009758080_0009887360.wav",
+   "bytes": 258604
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0009887360_0010025920.wav",
+   "dst": "audio\\training\\rejected\\seg_0009887360_0010025920.wav",
+   "bytes": 277164
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0010025920_0010153920.wav",
+   "dst": "audio\\training\\rejected\\seg_0010025920_0010153920.wav",
+   "bytes": 256044
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0010153920_0010313920.wav",
+   "dst": "audio\\training\\rejected\\seg_0010153920_0010313920.wav",
+   "bytes": 320044
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0010313920_0010427520.wav",
+   "dst": "audio\\training\\rejected\\seg_0010313920_0010427520.wav",
+   "bytes": 227244
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0010488960_0010652160.wav",
+   "dst": "audio\\training\\segments\\seg_0010488960_0010652160.wav",
+   "bytes": 326444
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0010652160_0010790400.wav",
+   "dst": "audio\\training\\segments\\seg_0010652160_0010790400.wav",
+   "bytes": 276524
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0010790400_0011003840.wav",
+   "dst": "audio\\training\\rejected\\seg_0010790400_0011003840.wav",
+   "bytes": 426924
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0011026880_0011112640.wav",
+   "dst": "audio\\training\\segments\\seg_0011026880_0011112640.wav",
+   "bytes": 171564
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0011302400_0011324160.wav",
+   "dst": "audio\\training\\rejected\\seg_0011302400_0011324160.wav",
+   "bytes": 43564
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0011482560_0011600000.wav",
+   "dst": "audio\\training\\segments\\seg_0011482560_0011600000.wav",
+   "bytes": 234924
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0011633920_0011878720.wav",
+   "dst": "audio\\training\\rejected\\seg_0011633920_0011878720.wav",
+   "bytes": 489644
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0011879360_0012039040.wav",
+   "dst": "audio\\training\\rejected\\seg_0011879360_0012039040.wav",
+   "bytes": 319404
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0012039040_0012175680.wav",
+   "dst": "audio\\training\\rejected\\seg_0012039040_0012175680.wav",
+   "bytes": 273324
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0012175680_0012362880.wav",
+   "dst": "audio\\training\\rejected\\seg_0012175680_0012362880.wav",
+   "bytes": 374444
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0012362880_0012610240.wav",
+   "dst": "audio\\training\\rejected\\seg_0012362880_0012610240.wav",
+   "bytes": 494764
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0012610240_0012753920.wav",
+   "dst": "audio\\training\\segments\\seg_0012610240_0012753920.wav",
+   "bytes": 287404
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0012753920_0012905600.wav",
+   "dst": "audio\\training\\segments\\seg_0012753920_0012905600.wav",
+   "bytes": 303404
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0012910400_0013109120.wav",
+   "dst": "audio\\training\\rejected\\seg_0012910400_0013109120.wav",
+   "bytes": 397484
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0013109120_0013286400.wav",
+   "dst": "audio\\training\\rejected\\seg_0013109120_0013286400.wav",
+   "bytes": 354604
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0013305920_0013386240.wav",
+   "dst": "audio\\training\\segments\\seg_0013305920_0013386240.wav",
+   "bytes": 160684
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0013440640_0013542400.wav",
+   "dst": "audio\\training\\segments\\seg_0013440640_0013542400.wav",
+   "bytes": 203564
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0013562560_0013718400.wav",
+   "dst": "audio\\training\\segments\\seg_0013562560_0013718400.wav",
+   "bytes": 311724
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0013718400_0013863680.wav",
+   "dst": "audio\\training\\segments\\seg_0013718400_0013863680.wav",
+   "bytes": 290604
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0013880320_0014045120.wav",
+   "dst": "audio\\training\\segments\\seg_0013880320_0014045120.wav",
+   "bytes": 329644
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0014045440_0014208960.wav",
+   "dst": "audio\\training\\segments\\seg_0014045440_0014208960.wav",
+   "bytes": 327084
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0014208960_0014335680.wav",
+   "dst": "audio\\training\\segments\\seg_0014208960_0014335680.wav",
+   "bytes": 253484
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0014335680_0014550080.wav",
+   "dst": "audio\\training\\segments\\seg_0014335680_0014550080.wav",
+   "bytes": 428844
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0014550080_0014736320.wav",
+   "dst": "audio\\training\\rejected\\seg_0014550080_0014736320.wav",
+   "bytes": 372524
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0014736320_0015083840.wav",
+   "dst": "audio\\training\\segments\\seg_0014736320_0015083840.wav",
+   "bytes": 695084
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\03_selected\\seg_0015083840_0015258880.wav",
+   "dst": "audio\\training\\segments\\seg_0015083840_0015258880.wav",
+   "bytes": 350124
+  },
+  {
+   "action": "copied",
+   "src": "C:\\jarvis-data\\voice\\02_slices\\seg_0015258880_0015383040.wav",
+   "dst": "audio\\training\\rejected\\seg_0015258880_0015383040.wav",
+   "bytes": 248364
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\gptsovits_trained_1.wav",
+   "dst": "audio\\samples\\gptsovits_trained_sovits-e8_gpt-e15\\gptsovits_trained_1.wav",
+   "bytes": 144684
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\gptsovits_trained_2.wav",
+   "dst": "audio\\samples\\gptsovits_trained_sovits-e8_gpt-e15\\gptsovits_trained_2.wav",
+   "bytes": 160044
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\gptsovits_trained_3.wav",
+   "dst": "audio\\samples\\gptsovits_trained_sovits-e8_gpt-e15\\gptsovits_trained_3.wav",
+   "bytes": 252204
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\gptsovits_trained_4.wav",
+   "dst": "audio\\samples\\gptsovits_trained_sovits-e8_gpt-e15\\gptsovits_trained_4.wav",
+   "bytes": 218924
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\gptsovits_trained_5.wav",
+   "dst": "audio\\samples\\gptsovits_trained_sovits-e8_gpt-e15\\gptsovits_trained_5.wav",
+   "bytes": 190764
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\gptsovits_trained_gpt-e10_1.wav",
+   "dst": "audio\\samples\\gptsovits_trained_sovits-e8_gpt-e10\\gptsovits_trained_gpt-e10_1.wav",
+   "bytes": 180524
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\gptsovits_trained_gpt-e10_2.wav",
+   "dst": "audio\\samples\\gptsovits_trained_sovits-e8_gpt-e10\\gptsovits_trained_gpt-e10_2.wav",
+   "bytes": 172844
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\gptsovits_trained_gpt-e10_3.wav",
+   "dst": "audio\\samples\\gptsovits_trained_sovits-e8_gpt-e10\\gptsovits_trained_gpt-e10_3.wav",
+   "bytes": 244524
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\gptsovits_trained_gpt-e10_4.wav",
+   "dst": "audio\\samples\\gptsovits_trained_sovits-e8_gpt-e10\\gptsovits_trained_gpt-e10_4.wav",
+   "bytes": 234284
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\gptsovits_trained_gpt-e10_5.wav",
+   "dst": "audio\\samples\\gptsovits_trained_sovits-e8_gpt-e10\\gptsovits_trained_gpt-e10_5.wav",
+   "bytes": 190764
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\gptsovits_zeroshot_1.wav",
+   "dst": "audio\\samples\\gptsovits_zeroshot_pretrained\\gptsovits_zeroshot_1.wav",
+   "bytes": 170284
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\gptsovits_zeroshot_2.wav",
+   "dst": "audio\\samples\\gptsovits_zeroshot_pretrained\\gptsovits_zeroshot_2.wav",
+   "bytes": 201004
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\gptsovits_zeroshot_3.wav",
+   "dst": "audio\\samples\\gptsovits_zeroshot_pretrained\\gptsovits_zeroshot_3.wav",
+   "bytes": 275244
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\gptsovits_zeroshot_4.wav",
+   "dst": "audio\\samples\\gptsovits_zeroshot_pretrained\\gptsovits_zeroshot_4.wav",
+   "bytes": 262444
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\gptsovits_zeroshot_5.wav",
+   "dst": "audio\\samples\\gptsovits_zeroshot_pretrained\\gptsovits_zeroshot_5.wav",
+   "bytes": 201004
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\kokoro_bm_daniel.wav",
+   "dst": "audio\\samples\\kokoro_fallback\\kokoro_bm_daniel.wav",
+   "bytes": 147644
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\kokoro_bm_fable.wav",
+   "dst": "audio\\samples\\kokoro_fallback\\kokoro_bm_fable.wav",
+   "bytes": 163244
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\kokoro_bm_george.wav",
+   "dst": "audio\\samples\\kokoro_fallback\\kokoro_bm_george.wav",
+   "bytes": 164444
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\kokoro_bm_lewis.wav",
+   "dst": "audio\\samples\\kokoro_fallback\\kokoro_bm_lewis.wav",
+   "bytes": 160844
+  },
+  {
+   "action": "moved",
+   "src": "P:\\Coding\\App Development\\MyProjects\\JARVIS\\notebooks\\outputs\\kokoro_good_morning.wav",
+   "dst": "audio\\samples\\kokoro_fallback\\kokoro_good_morning.wav",
+   "bytes": 94844
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+# ---------------------------------------------------------------- secrets
+local.properties
+.env
+*.env
+
+# ---------------------------------------------------------------- models and large binaries (kept locally)
+# GGUF models, archives and checkpoints are tens of GB and exceed GitHub's 100 MB limit.
+Models/*
+!Models/SETUP.md
+*.gguf
+*.crdownload
+*.7z
+*.zip
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+
+# ---------------------------------------------------------------- audio
+# Source and training audio is cut from film recordings, and the GPT-SoVITS samples and phrase library are a clone of
+# a real actor's voice: none of it is redistributable. Only Kokoro's built-in fallback voice samples are published.
+*.mp3
+audio/source/
+audio/training/
+audio/library/
+audio/samples/*
+!audio/samples/kokoro_fallback/
+
+# ---------------------------------------------------------------- build output and caches
+build/
+.gradle/
+.kotlin/
+.cxx/
+captures/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ---------------------------------------------------------------- other projects and editor/OS files
+Medikiosk/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,100 @@
+{
+  "mode": "zeroshot",
+  "sovits": "s2Gv2ProPlus.pth",
+  "gpt": "s1v3.ckpt",
+  "reference": {
+    "path": "C:\\jarvis-data\\voice\\03_selected\\seg_0011482560_0011600000.wav",
+    "text": "charging, but the power source is questionable. It may not succeed to revitalize."
+  },
+  "load_ms": 9489,
+  "single_sentence": {
+    "text": "Sir, your class begins in thirty minutes.",
+    "cold_first_call_ms": 15165,
+    "warm_synth_median_ms": 2620,
+    "warm_synth_runs_ms": [
+      2620,
+      2817,
+      2551
+    ],
+    "spoken": {
+      "ttfa_ms": 4651,
+      "synth_ms": 3841,
+      "audio_s": 2.66,
+      "rtf": 1.444
+    }
+  },
+  "stream": {
+    "ttfa_ms": 2815,
+    "total_ms": 15540,
+    "audio_s": 9.32,
+    "gaps_ms": 3476
+  },
+  "samples": [
+    {
+      "file": "gptsovits_zeroshot_1.wav",
+      "text": "Sir, your class begins in thirty minutes.",
+      "synth_ms": 3231,
+      "audio_s": 2.66
+    },
+    {
+      "file": "gptsovits_zeroshot_2.wav",
+      "text": "I'm afraid I can't reach your calendar at the moment, Sir.",
+      "synth_ms": 3510,
+      "audio_s": 3.14
+    },
+    {
+      "file": "gptsovits_zeroshot_3.wav",
+      "text": "Traffic on the usual route is heavy; leaving now puts you there at nine fifty-eight.",
+      "synth_ms": 6511,
+      "audio_s": 4.3
+    },
+    {
+      "file": "gptsovits_zeroshot_4.wav",
+      "text": "You have three unread messages, two of which appear to be from your professor.",
+      "synth_ms": 4639,
+      "audio_s": 4.1
+    },
+    {
+      "file": "gptsovits_zeroshot_5.wav",
+      "text": "Shall I set an alarm for six forty-five tomorrow morning?",
+      "synth_ms": 3259,
+      "audio_s": 3.14
+    }
+  ],
+  "vram": {
+    "peak_process_mb": 2063,
+    "peak_device_delta_mb": 2046,
+    "baseline_other_apps_mb": 414,
+    "stages": [
+      {
+        "stage": "after_load",
+        "process_now_mb": 1871,
+        "process_peak_mb": 1871,
+        "device_delta_now_mb": 1887,
+        "device_delta_peak_mb": 1887
+      },
+      {
+        "stage": "after_first_synth",
+        "process_now_mb": 1587,
+        "process_peak_mb": 2063,
+        "device_delta_now_mb": 1570,
+        "device_delta_peak_mb": 2046
+      },
+      {
+        "stage": "after_single_sentence",
+        "process_now_mb": 1593,
+        "process_peak_mb": 2063,
+        "device_delta_now_mb": 1575,
+        "device_delta_peak_mb": 2046
+      },
+      {
+        "stage": "after_stream",
+        "process_now_mb": 1611,
+        "process_peak_mb": 2063,
+        "device_delta_now_mb": 1592,
+        "device_delta_peak_mb": 2046
+      }
+    ]
+  },
+  "torch_max_reserved_mb": 1922
+}

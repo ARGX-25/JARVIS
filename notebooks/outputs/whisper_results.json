@@ -1,0 +1,63 @@
+{
+  "model": "large-v3-turbo",
+  "compute_type": "int8_float16",
+  "beam_size": 5,
+  "faster_whisper": "1.2.1",
+  "ctranslate2": "4.8.2",
+  "live": null,
+  "bench_source": "reference mp3 30-45 s",
+  "bench": {
+    "gpu large-v3-turbo int8_float16": {
+      "load_ms": 6839,
+      "cold_ms": 1415,
+      "warm_median_ms": 1343,
+      "warm_first_segment_ms": 1343,
+      "rtf": 0.09,
+      "text": "for fixed-wing flight is 85,000 feet, sir. Sir, there is a potentially fatal build-up of ice occurring. A very astute observation, sir. Perhaps if you intend to visit other planets, we should improve the exosystem. Yes. Shall I render using proposed specifications?"
+    },
+    "cpu large-v3-turbo int8 x8": {
+      "load_ms": 9729,
+      "cold_ms": 20491,
+      "warm_median_ms": 23487,
+      "warm_first_segment_ms": 23486,
+      "rtf": 1.566,
+      "text": "for fixed-wing flight is 85,000 feet, sir. Sir, there is a potentially fatal build-up of ice occurring. A very astute observation, sir. Perhaps if you intend to visit other planets, we should improve the exosystem. Yes. Shall I render using proposed specifications?"
+    },
+    "cpu small int8 x8": {
+      "load_ms": 239636,
+      "cold_ms": 5424,
+      "warm_median_ms": 5457,
+      "warm_first_segment_ms": 5456,
+      "rtf": 0.364,
+      "text": "A very astute observation, sir. Perhaps if you intend to visit other planets, we should improve the exosystems. Yes. Shall I render using proposed specifications?"
+    }
+  },
+  "vram": {
+    "peak_process_mb": 1327,
+    "peak_device_delta_mb": 1435,
+    "baseline_other_apps_mb": 437,
+    "stages": [
+      {
+        "stage": "after_load",
+        "process_now_mb": 1117,
+        "process_peak_mb": 1117,
+        "device_delta_now_mb": 1123,
+        "device_delta_peak_mb": 1123
+      },
+      {
+        "stage": "after_warmup",
+        "process_now_mb": 1199,
+        "process_peak_mb": 1231,
+        "device_delta_now_mb": 1205,
+        "device_delta_peak_mb": 1237
+      },
+      {
+        "stage": "after_gpu_bench",
+        "process_now_mb": 1199,
+        "process_peak_mb": 1327,
+        "device_delta_now_mb": 1196,
+        "device_delta_peak_mb": 1348
+      }
+    ]
+  }
+}

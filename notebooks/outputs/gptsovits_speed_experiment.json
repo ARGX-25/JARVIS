@@ -1,0 +1,143 @@
+{
+  "sentence": "Sir, your class begins in thirty minutes.",
+  "torch": "2.0.0+cu118",
+  "configs": [
+    {
+      "label": "fp16, parallel_infer=True (notebook default)",
+      "median": {
+        "total_ms": 1703,
+        "t2s_ms": 1214,
+        "rest_ms": 472,
+        "tokens_per_s": 127.7,
+        "gpu_util_during_t2s": 24.3,
+        "rtf": 0.753
+      },
+      "runs": [
+        {
+          "total_ms": 1703,
+          "t2s_ms": 1193,
+          "rest_ms": 510,
+          "tokens": 155,
+          "tokens_per_s": 129.9,
+          "gpu_util_during_t2s": 24.3,
+          "audio_s": 2.26,
+          "rtf": 0.753
+        },
+        {
+          "total_ms": 1675,
+          "t2s_ms": 1214,
+          "rest_ms": 461,
+          "tokens": 155,
+          "tokens_per_s": 127.7,
+          "gpu_util_during_t2s": 35.9,
+          "audio_s": 2.26,
+          "rtf": 0.741
+        },
+        {
+          "total_ms": 1744,
+          "t2s_ms": 1272,
+          "rest_ms": 472,
+          "tokens": 155,
+          "tokens_per_s": 121.8,
+          "gpu_util_during_t2s": 18.2,
+          "audio_s": 2.26,
+          "rtf": 0.772
+        }
+      ]
+    },
+    {
+      "label": "fp16, parallel_infer=False",
+      "median": {
+        "total_ms": 1652,
+        "t2s_ms": 1077,
+        "rest_ms": 492,
+        "tokens_per_s": 143.9,
+        "gpu_util_during_t2s": 27.8,
+        "rtf": 0.731
+      },
+      "runs": [
+        {
+          "total_ms": 1652,
+          "t2s_ms": 1077,
+          "rest_ms": 575,
+          "tokens": 155,
+          "tokens_per_s": 143.9,
+          "gpu_util_during_t2s": 7.4,
+          "audio_s": 2.26,
+          "rtf": 0.731
+        },
+        {
+          "total_ms": 1778,
+          "t2s_ms": 1286,
+          "rest_ms": 492,
+          "tokens": 155,
+          "tokens_per_s": 120.5,
+          "gpu_util_during_t2s": 28.9,
+          "audio_s": 2.26,
+          "rtf": 0.787
+        },
+        {
+          "total_ms": 1407,
+          "t2s_ms": 945,
+          "rest_ms": 461,
+          "tokens": 155,
+          "tokens_per_s": 164.0,
+          "gpu_util_during_t2s": 27.8,
+          "audio_s": 2.26,
+          "rtf": 0.622
+        }
+      ]
+    },
+    {
+      "label": "fp32, parallel_infer=False",
+      "median": {
+        "total_ms": 1453,
+        "t2s_ms": 935,
+        "rest_ms": 527,
+        "tokens_per_s": 165.8,
+        "gpu_util_during_t2s": 45.3,
+        "rtf": 0.643
+      },
+      "runs": [
+        {
+          "total_ms": 1803,
+          "t2s_ms": 1202,
+          "rest_ms": 601,
+          "tokens": 155,
+          "tokens_per_s": 129.0,
+          "gpu_util_during_t2s": 14.4,
+          "audio_s": 2.26,
+          "rtf": 0.798
+        },
+        {
+          "total_ms": 1446,
+          "t2s_ms": 935,
+          "rest_ms": 511,
+          "tokens": 155,
+          "tokens_per_s": 165.8,
+          "gpu_util_during_t2s": 56.7,
+          "audio_s": 2.26,
+          "rtf": 0.64
+        },
+        {
+          "total_ms": 1453,
+          "t2s_ms": 926,
+          "rest_ms": 527,
+          "tokens": 155,
+          "tokens_per_s": 167.3,
+          "gpu_util_during_t2s": 45.3,
+          "audio_s": 2.26,
+          "rtf": 0.643
+        }
+      ]
+    }
+  ],
+  "ab_gpt_e10_files": [
+    "gptsovits_trained_gpt-e10_1.wav",
+    "gptsovits_trained_gpt-e10_2.wav",
+    "gptsovits_trained_gpt-e10_3.wav",
+    "gptsovits_trained_gpt-e10_4.wav",
+    "gptsovits_trained_gpt-e10_5.wav"
+  ],
+  "fp32_torch_max_reserved_mb": 4326
+}

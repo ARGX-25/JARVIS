@@ -1,0 +1,92 @@
+{
+  "uvr_model": "model_bs_roformer_ep_317_sdr_12.9755",
+  "asr_model": "large-v3-turbo int8_float16 (whisper venv)",
+  "segments_total": 88,
+  "segments_selected": 31,
+  "seconds_selected": 154.6,
+  "thresholds": {
+    "spk_sim_min": 0.7,
+    "bleed_db_max": -6.0,
+    "logprob_min": -0.6
+  },
+  "manual_rejects": [],
+  "reference": {
+    "path": "C:\\jarvis-data\\voice\\03_selected\\seg_0011482560_0011600000.wav",
+    "text": "charging, but the power source is questionable. It may not succeed to revitalize."
+  },
+  "sovits": {
+    "batch": 4,
+    "epochs": 8,
+    "weights": [
+      "jarvis_v2pp_e4_s96.pth",
+      "jarvis_v2pp_e8_s192.pth"
+    ]
+  },
+  "gpt": {
+    "batch": 4,
+    "epochs": 15,
+    "weights": [
+      "jarvis_v2pp-e5.ckpt",
+      "jarvis_v2pp-e10.ckpt",
+      "jarvis_v2pp-e15.ckpt"
+    ]
+  },
+  "steps": [
+    {
+      "step": "speaker embeddings",
+      "exit": 0,
+      "minutes": 1.0,
+      "gpu_used_before_mb": 141,
+      "gpu_used_peak_mb": 864
+    },
+    {
+      "step": "ASR labels",
+      "exit": 0,
+      "minutes": 1.3,
+      "gpu_used_before_mb": 141,
+      "gpu_used_peak_mb": 1468
+    },
+    {
+      "step": "1a text + BERT",
+      "exit": 0,
+      "minutes": 0.5,
+      "gpu_used_before_mb": 140,
+      "gpu_used_peak_mb": 855
+    },
+    {
+      "step": "1b HuBERT + wav32k",
+      "exit": 0,
+      "minutes": 0.5,
+      "gpu_used_before_mb": 138,
+      "gpu_used_peak_mb": 965
+    },
+    {
+      "step": "1b speaker embeddings",
+      "exit": 0,
+      "minutes": 0.4,
+      "gpu_used_before_mb": 138,
+      "gpu_used_peak_mb": 871
+    },
+    {
+      "step": "1c semantic tokens",
+      "exit": 0,
+      "minutes": 0.3,
+      "gpu_used_before_mb": 138,
+      "gpu_used_peak_mb": 441
+    },
+    {
+      "step": "SoVITS training",
+      "exit": 0,
+      "minutes": 8.0,
+      "gpu_used_before_mb": 138,
+      "gpu_used_peak_mb": 6937
+    },
+    {
+      "step": "GPT training",
+      "exit": 0,
+      "minutes": 3.0,
+      "gpu_used_before_mb": 195,
+      "gpu_used_peak_mb": 5927
+    }
+  ]
+}

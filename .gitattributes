@@ -1,0 +1,2 @@
+# Strip notebook outputs on commit: they can embed audio and local paths (see tools/git/nbstrip.py).
+*.ipynb filter=nbstrip

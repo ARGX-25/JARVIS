@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dark window with the app's navy so there is no white flash before Compose draws. -->
+    <style name="Theme.JARVIS" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/jarvis_night</item>
+    </style>
+</resources>

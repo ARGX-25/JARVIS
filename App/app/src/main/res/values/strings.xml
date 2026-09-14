@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">JARVIS</string>
+    <string name="jarvis_subtitle">Cuddy · Cameron · local memory</string>
+    <string name="jarvis_send">Send</string>
+    <string name="jarvis_placeholder">Message JARVIS</string>
+    <string name="jarvis_empty_input">Enter a message before sending.</string>
+    <string name="jarvis_too_long">Message exceeded 4000 characters and was truncated before sending.</string>
+    <string name="jarvis_fallback">I hit a network or API problem, so I could not reach Cameron right now.</string>
+    <string name="jarvis_missing_key">Add GEMINI_API_KEY to your Gradle properties before sending live requests.</string>
+    <string name="attach">Attach</string>
+    <string name="attach_unavailable">Attachments aren\'t supported yet.</string>
+    <string name="voice_live_label">Voice assistant</string>
+    <string name="voice_title">Talk to JARVIS</string>
+    <string name="voice_subtitle">Listening. The keyboard stays open if you\'d rather type.</string>
+    <string name="voice_start">Start voice assistant</string>
+    <string name="voice_stop">Stop voice assistant</string>
+    <string name="voice_permission_denied">Microphone permission is needed for the voice assistant.</string>
+</resources>
