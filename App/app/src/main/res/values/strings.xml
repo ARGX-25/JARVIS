@@ -5,8 +5,8 @@
     <string name="jarvis_placeholder">Message JARVIS</string>
     <string name="jarvis_empty_input">Enter a message before sending.</string>
     <string name="jarvis_too_long">Message exceeded 4000 characters and was truncated before sending.</string>
-    <string name="jarvis_fallback">I hit a network or API problem, so I could not reach Cameron right now.</string>
-    <string name="jarvis_missing_key">Add GEMINI_API_KEY to your Gradle properties before sending live requests.</string>
+    <string name="jarvis_fallback">I can\'t reach Cuddy on the laptop. Check the server is running and the phone is on USB (adb reverse) or the same Wi-Fi.</string>
+    <string name="jarvis_missing_key">Cuddy rejected this app\'s token. Copy C:\\jarvis-data\\cuddy\\token.txt into CUDDY_TOKEN in local.properties and rebuild.</string>
     <string name="attach">Attach</string>
     <string name="attach_unavailable">Attachments aren\'t supported yet.</string>
     <string name="voice_live_label">Voice assistant</string>

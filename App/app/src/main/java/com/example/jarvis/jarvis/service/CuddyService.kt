@@ -1,6 +1,8 @@
 package com.example.jarvis.jarvis.service
 
 import com.example.jarvis.jarvis.core.AgentDispatcher
+import com.example.jarvis.jarvis.core.CuddyClient
+import com.example.jarvis.jarvis.core.CuddyException
 import com.example.jarvis.jarvis.core.ExchangeLogger
 import com.example.jarvis.jarvis.core.InputProcessor
 import com.example.jarvis.jarvis.core.Router
@@ -51,8 +53,10 @@ class CuddyService(
         }
         val responseText = dispatchResult.getOrElse { error ->
             when {
-                error.message == "MISSING_API_KEY" -> AgentResponse(missingKeyMessage)
-                error.message?.startsWith("HTTP_") == true -> AgentResponse(fallbackMessage)
+                // Cuddy explains its own failures in character (role unavailable, Cameron down): show that as-is.
+                error is CuddyException && error.spokenText.isNotBlank() -> AgentResponse(error.spokenText)
+                error.message == CuddyClient.MISSING_TOKEN || error.message == CuddyClient.UNAUTHORIZED ->
+                    AgentResponse(missingKeyMessage)
                 else -> AgentResponse(fallbackMessage)
             }
         }.text
@@ -67,7 +71,11 @@ class CuddyService(
             confidence = routingDecision.confidence,
             routingReason = routingDecision.reason,
             response = responseText,
-            status = if (dispatchResult.isSuccess) "success" else "fallback",
+            status = when {
+                dispatchResult.isSuccess -> "success"
+                dispatchResult.exceptionOrNull()?.message == CuddyClient.ROLE_UNAVAILABLE -> "unavailable"
+                else -> "fallback"
+            },
             latencyMs = latencyMs,
             error = dispatchResult.exceptionOrNull()?.message
         )

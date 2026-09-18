@@ -1,0 +1,8 @@
+# Cuddy server. Install into its own venv:
+#   python -m venv C:\jarvis-venvs\cuddy
+#   C:\jarvis-venvs\cuddy\Scripts\python.exe -m pip install -r requirements.txt
+fastapi==0.141.1
+uvicorn==0.53.0
+httpx==0.28.1
+pydantic==2.13.5
+starlette==1.6.0

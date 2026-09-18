@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
 import com.example.jarvis.BuildConfig
 import com.example.jarvis.R
+import com.example.jarvis.jarvis.core.CuddyClient
 import com.example.jarvis.jarvis.core.Dispatcher
 import com.example.jarvis.jarvis.core.Config
 import com.example.jarvis.jarvis.core.InputProcessor
@@ -117,7 +118,12 @@ class JarvisViewModel(
                 @Suppress("UNCHECKED_CAST")
                 override fun <T : ViewModel> create(modelClass: Class<T>): T {
                     val appContext = context.applicationContext
-                    val dispatcher = Dispatcher(BuildConfig.GEMINI_API_KEY)
+                    val dispatcher = Dispatcher(
+                        CuddyClient(
+                            baseUrls = CuddyClient.parseUrls(BuildConfig.CUDDY_URLS),
+                            token = BuildConfig.CUDDY_TOKEN
+                        )
+                    )
                     val database = MemoryDatabase.getInstance(appContext)
                     val memoryManager = MemoryManager(
                         dao = database.memorySummaryDao(),

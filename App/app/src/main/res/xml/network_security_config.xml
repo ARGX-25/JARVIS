@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    The app's only server is Cuddy on the laptop, reached over plain HTTP: through USB (adb reverse -> 127.0.0.1)
+    or the home Wi-Fi (the laptop's LAN address, which can change). Requests carry a bearer token, but over Wi-Fi
+    they are not encrypted, so anyone on the same network could read them.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
