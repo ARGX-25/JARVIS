@@ -12,7 +12,7 @@ class CameronMemorySummarizer(
 ) : ConversationSummarizer {
     override suspend fun summarize(messages: List<SessionMessage>): Result<SummaryGeneration> {
         val prompt = buildPrompt(messages)
-        return dispatcher.dispatch(agentName, prompt).mapCatching { response ->
+        return dispatcher.dispatchMemorySummary(agentName, prompt).mapCatching { response ->
             val summary = response.text.normalizeMemoryWhitespace().trimToWordLimit(MAX_SUMMARY_WORDS)
             if (summary.isBlank()) {
                 error("EMPTY_MEMORY_SUMMARY")

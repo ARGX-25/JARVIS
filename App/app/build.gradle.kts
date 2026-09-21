@@ -17,7 +17,10 @@ val localProperties = Properties().apply {
 android {
     namespace = "com.example.jarvis"
     compileSdk = 35
-    val geminiApiKey = localProperties.getProperty("GEMINI_API_KEY", "")
+    // Cuddy on the laptop. Both come from local.properties (git-ignored); the token is in C:\jarvis-data\cuddy\token.txt.
+    val cuddyToken = localProperties.getProperty("CUDDY_TOKEN", "")
+    // Tried in order: USB first (adb reverse tcp:8765 tcp:8765), then the laptop's Wi-Fi address.
+    val cuddyUrls = localProperties.getProperty("CUDDY_URLS", "http://127.0.0.1:8765")
 
     defaultConfig {
         applicationId = "com.example.jarvis"
@@ -27,7 +30,8 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "GEMINI_API_KEY", "\"$geminiApiKey\"")
+        buildConfigField("String", "CUDDY_TOKEN", "\"$cuddyToken\"")
+        buildConfigField("String", "CUDDY_URLS", "\"$cuddyUrls\"")
     }
 
     buildTypes {
